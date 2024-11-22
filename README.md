@@ -43,8 +43,8 @@ Pokermoon is a memory-based game built using **React Native** with **Expo**, des
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
-   cd pokermoon-memory-game
+   git clone https://github.com/David-mwas/pokermoon.git
+   cd pokermoon
    ```
 
 2. **Install Dependancies:**
