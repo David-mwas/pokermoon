@@ -4,6 +4,17 @@ Pokermoon is a memory-based game built using **React Native** with **Expo**, des
 
 ---
 
+<div align="center">
+<img src="assets/img/WhatsApp Image 2024-11-22 at 12.38.44 PM.jpeg" width="250"/>
+<img src="assets/img/WhatsApp Image 2024-11-22 at 12.38.42 PM.jpeg" width="250"/>
+<img src="assets/img/WhatsApp Image 2024-11-22 at 12.38.45 PM.jpeg" width="250"/>
+
+  <img src="assets/img/WhatsApp Image 2024-11-22 at 12.38.43 PM.jpeg" width="250"/>
+  <img src="assets/img/WhatsApp Image 2024-11-22 at 12.38.46 PM.jpeg" width="250"/>
+  <img src="assets/img/WhatsApp Image 2024-11-22 at 12.38.47 PM.jpeg" width="250"/>
+  
+</div>
+
 ## Features 🚀
 
 - **Interactive Gameplay:** Click unique Pokémon to score points, but don't repeat clicks, or it's game over!
@@ -45,4 +56,20 @@ Pokermoon is a memory-based game built using **React Native** with **Expo**, des
 
 ## Project sructure
 
+## Project Structure 🗂
 
+```plaintext
+pokermoon-memory-game/
+├── app/                 # File-based routing using Expo Router
+│   ├── index.tsx        # Home screen
+│   ├── tabOne.tsx       # Tab One screen (game)
+│   ├── tabTwo.tsx       # Tab Two screen (e.g., About/Settings)
+│   └── _layout.tsx      # Layout for tab navigation
+├── assets/              # Static assets like sounds and images
+├── components/          # Reusable UI components
+├── package.json         # Project dependencies and scripts
+├── tsconfig.json        # TypeScript configuration
+├── app.config.js        # Expo project configuration
+└── README.md            # Project documentation
+
+```
